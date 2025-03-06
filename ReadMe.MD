@@ -1,4 +1,8 @@
 --- How to Setup 
+1. Install Open AI's Whisper Model
+follow steps in Getting_Whisper_To_Run.md
+
+2. Setting up Virtual Environment
 Create Virtual Environment:
 python -m venv venv
 
