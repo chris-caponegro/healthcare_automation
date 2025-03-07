@@ -7,7 +7,7 @@ def main():
     print("Starting patient note recording process...\n")
 
     # Step 1: Record audio
-    record_audio()
+    record_audio() # comment this out to avoid re recording
     time.sleep(2)  # Ensure file writes are complete
 
     # Step 2: Transcribe the recorded audio
