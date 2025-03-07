@@ -60,6 +60,7 @@ def gen_notes():
         print("Doctor notes successfully generated and saved to:", output_file)
     else:
         print("No transcription found. Please check the transcription file.")
+        
 # Main execution
 if __name__ == "__main__":
     gen_notes()
