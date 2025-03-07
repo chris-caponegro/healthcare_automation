@@ -1,8 +1,11 @@
 import openai
 import os
+from dotenv import load_dotenv
 
-# Set your OpenAI API key (Make sure to use environment variables or a config file in production)
-OPENAI_API_KEY = "your-api-key-here"
+
+# Set your OpenAI API key
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Path to the transcribed text file
 TRANSCRIPTION_FILE = "transcribed_audio/transcription.txt"
@@ -36,7 +39,7 @@ def format_doctor_notes(transcribed_text):
     """
 
     response = client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",  # Could change to gpt-4 if needed
         messages=[{"role": "system", "content": "You are a medical assistant generating structured doctor notes."},
                   {"role": "user", "content": prompt}]
     )
@@ -51,7 +54,7 @@ if __name__ == "__main__":
         formatted_notes = format_doctor_notes(transcribed_text)
         
         # Save formatted notes to a file
-        output_file = "transcribed_audio/doctor_notes.txt"
+        output_file = "results/doctor_notes.txt"
         with open(output_file, "w", encoding="utf-8") as file:
             file.write(formatted_notes)
         
