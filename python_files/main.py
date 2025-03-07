@@ -1,7 +1,7 @@
 import time
 from record_audio import record_audio
 from audio_to_text import transcribe_audio
-from gen_doctor_notes import generate_doctor_notes
+from gen_doctor_notes import gen_notes
 
 def main():
     print("Starting patient note recording process...\n")
@@ -15,7 +15,7 @@ def main():
     time.sleep(2)  # Allow processing time
 
     # Step 3: Generate formatted doctor notes
-    generate_doctor_notes()
+    gen_notes()
 
     print("Process completed successfully! Check the output files.\n")
 

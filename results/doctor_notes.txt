@@ -1,17 +1,14 @@
-**Patient's Chief Complaint:**  
-Patient presents with a persistent cough for one week, worsening over time.
+- **Patient's Chief Complaint:**  
+  Patient presents with a persistent cough for the past week, worsening over time.
 
-**History of Present Illness (HPI):**  
-Patient reports experiencing a bad cough that has been progressively worsening. Had a fever two days ago which has since resolved, but continues to feel fatigued. Denies significant chest pain but notes mild tightness during deep breaths.
+- **History of Present Illness (HPI):**  
+  The cough has been accompanied by a fever two days ago, fatigue, and slight tightness in the chest upon deep breathing. No significant chest pain reported.
 
-**Relevant Medical History:**  
-Patient has a history of asthma, usually well-controlled.
+- **Relevant Medical History:**  
+  Patient has a history of asthma, typically well-controlled.
 
-**Current Symptoms:**  
-1. Persistent cough
-2. Recent fever that resolved
-3. Fatigue
-4. Mild chest tightness with deep breaths
+- **Current Symptoms:**  
+  Persistent cough, recent fever, fatigue, tightness in chest with deep breathing.
 
-**Prescribed Medications/Advice:**  
-Patient is currently using over-the-counter cough syrup for symptom relief. Further assessment by the doctor is advised to evaluate the cough in the context of asthma history and recent fever.
+- **Prescribed Medications/Advice:**  
+  Patient reports taking over-the-counter cough syrup with some relief. No specific medications mentioned. Reviewed by physician for further evaluation.

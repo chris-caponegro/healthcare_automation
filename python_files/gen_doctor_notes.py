@@ -46,8 +46,7 @@ def format_doctor_notes(transcribed_text):
 
     return response.choices[0].message.content
 
-# Main execution
-if __name__ == "__main__":
+def gen_notes(): 
     transcribed_text = read_transcription(TRANSCRIPTION_FILE)
     
     if transcribed_text:
@@ -61,3 +60,6 @@ if __name__ == "__main__":
         print("Doctor notes successfully generated and saved to:", output_file)
     else:
         print("No transcription found. Please check the transcription file.")
+# Main execution
+if __name__ == "__main__":
+    gen_notes()
