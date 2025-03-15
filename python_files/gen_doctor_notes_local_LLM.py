@@ -31,7 +31,7 @@ def format_doctor_notes(transcribed_text):
     """
 
     response = ollama.chat(
-        model="llama3",  # Change this if you specifically need 'llama3.2:1b'
+        model="llama3.2:1b",  
         messages=[
             {"role": "system", "content": "You are a medical assistant generating structured doctor notes."},
             {"role": "user", "content": prompt}
@@ -53,7 +53,7 @@ def gen_notes():
         with open(output_file, "w", encoding="utf-8") as file:
             file.write(formatted_notes)
         
-        print("Doctor notes successfully generated and saved to:", output_file)
+        print("Doctor notes successfully generated with llama3 and saved to:", output_file)
     else:
         print("No transcription found. Please check the transcription file.")
         

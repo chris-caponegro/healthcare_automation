@@ -1,14 +1,32 @@
-- **Patient's Chief Complaint:**  
-  Patient presents with a persistent cough for the past week, worsening over time.
+Here is the structured doctor note based on the provided conversation:
 
-- **History of Present Illness (HPI):**  
-  The cough has been accompanied by a fever two days ago, fatigue, and slight tightness in the chest upon deep breathing. No significant chest pain reported.
+**Patient Information**
 
-- **Relevant Medical History:**  
-  Patient has a history of asthma, typically well-controlled.
+* Name: [Patient's Name]
+* Date of Birth: [Patient's Date of Birth]
+* Contact Information:
+	+ Phone Number: [Phone Number]
+	+ Email Address: [Email Address]
 
-- **Current Symptoms:**  
-  Persistent cough, recent fever, fatigue, tightness in chest with deep breathing.
+**Chief Complaint and History of Present Illness (HPI)**
 
-- **Prescribed Medications/Advice:**  
-  Patient reports taking over-the-counter cough syrup with some relief. No specific medications mentioned. Reviewed by physician for further evaluation.
+The patient reports a worsening cough for the past week, which has intensified over time. The cough has also been accompanied by fever two days ago, but is currently alleviated with a one-away. Notably, the patient experiences shortness of breath and tightness when breathing deeply.
+
+**Relevant Medical History**
+
+* Asthma: Currently under control
+
+**Current Symptoms**
+
+* Cough (worsening over time)
+* Fever (two days ago)
+* Shortness of breath
+* Tightness when breathing deeply
+
+**Any Prescribed Medications or Advice**
+
+None provided. However, the patient is taking cough medication and over-the-counter cough syrup to help alleviate symptoms.
+
+**Assessment and Plan**
+
+The doctor will be with the patient shortly. The diagnosis and treatment plan are pending further evaluation.
