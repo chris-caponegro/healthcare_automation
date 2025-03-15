@@ -1,0 +1,26 @@
+This is a file that contains info on running an LLM locally.
+
+
+We can use LM Studio or Ollama
+
+
+
+Setting Up Ollama:
+
+1. Download here: https://ollama.com/download
+
+2. Test with this command:
+ollama -h
+
+3. Install a model:
+https://ollama.com/search 
+Ideally you want to choose something compatible with your system hardware
+
+I choose llama3.2 - https://llamaimodel.com/requirements-3-2/
+
+4. Download model and run model
+ollama run llama3.2:1b
+
+/bye to end chat
+
+5. for python interface: pip install ollama
